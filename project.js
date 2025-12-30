@@ -1,7 +1,7 @@
 let inputDir = { x: 0, y: 0 };
-const moveSound = new Audio("/home/user/fsd_proj/javascript/proj/audio/move.mp3");
-const foodSound = new Audio("/home/user/fsd_proj/javascript/proj/audio/food.mp3");
-const gameOverSound = new Audio("/home/user/fsd_proj/javascript/proj/audio/gameover.mp3");
+const moveSound = new Audio("/audio/move.mp3");
+const foodSound = new Audio("/audio/food.mp3");
+const gameOverSound = new Audio("/audio/gameover.mp3");
 let speed = 7;
 let lastPaintTime = 0;
 let snakeArr = [{ x: 13, y: 15 }];
