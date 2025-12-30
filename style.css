@@ -1,5 +1,5 @@
 body{
-    background: url("/home/user/fsd_proj/snake.jpg");
+    background: url("/img/snake.jpg");
     display: flex;
     flex-wrap: wrap;
 }
