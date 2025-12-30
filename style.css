@@ -1,0 +1,48 @@
+body{
+    background: url("/home/user/fsd_proj/snake.jpg");
+    display: flex;
+    flex-wrap: wrap;
+}
+    
+#gamezone{
+        margin-left: 240px;
+        height: 840px;
+        width: 900px;
+        border: solid 3px rgb(69, 8, 8);
+        border-radius: 39px;
+        background-color: rgb(202, 214, 214);
+        display: grid;
+        grid-template-columns: repeat(18, 1fr);
+        grid-template-rows: repeat(18, 1fr); 
+}
+
+.snake{
+background-color: rgb(193, 193, 19);
+}
+
+.food{
+background-color: rgb(9, 64, 112);
+}
+
+.head{
+ background-color: rgb(231, 71, 22);
+}
+#score{
+    position: absolute;
+    top: 20px;
+    right: 200px;
+    font-size:xx-large;
+    color: rgb(222, 239, 239);
+    padding: 10px;
+    font: bold;
+}
+#hiscore{
+    position: absolute;
+    top: 60px;
+    right: 200px;
+    font-size:xx-large;
+    color: rgb(213, 224, 224);
+    padding: 10px;
+    font: bold;
+}
+ 
